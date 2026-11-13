@@ -1,0 +1,35 @@
+ex20v-openwrt-tool-macos
+=========================
+
+This project is a macOS port of the Windows PowerShell tool:
+
+    tplink_ex20v_openwrt_tool
+    https://github.com/yucellmustafa/tplink_ex20v_openwrt_tool
+    (c) yucellmustafa and contributors
+
+Scope of the MIT License (see LICENSE)
+--------------------------------------
+The MIT License in this repository covers ONLY the macOS host-side code
+written for this port:
+
+    ex20v-tool.py        (host-side: HTTP/TFTP file server + SSH orchestration)
+    build.sh, build-x86.sh
+
+Components from the upstream project
+------------------------------------
+The following are taken from the upstream project and remain the work of the
+original author(s). They are redistributed here with attribution, for the tool
+to function:
+
+    agent.sh             device-side POSIX shell agent, byte-for-byte identical
+                         to the upstream embedded script
+                         (sha256: 465ad533bee82c43c89c5b7f4b42bd580d844d8a269aa7425c12bcbad0f72be6)
+    files/*.bin          prebuilt OpenWrt firmware images for the TP-Link EX20v v2
+
+The upstream repository does not declare an explicit license. These upstream
+components are included with permission / in coordination with the original
+author and retain whatever terms the upstream project applies to them. If you
+redistribute this project, keep this NOTICE and the attribution intact.
+
+This is an independent community effort with no affiliation to TP-Link,
+Turk Telekom, EcoNet, MediaTek, or OpenWrt.
