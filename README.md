@@ -4,7 +4,12 @@
 
 # TP-Link EX20v v2 — OpenWrt Tool (macOS)
 
-![platform: macOS](https://img.shields.io/badge/platform-macOS-black?logo=apple&logoColor=white) ![python: 3.x](https://img.shields.io/badge/python-3.x-3776AB?logo=python&logoColor=white) ![OpenWrt: Backup & Install](https://img.shields.io/badge/OpenWrt-Backup%20%26%20Install-00B5E2?logo=openwrt&logoColor=white) ![license: MIT](https://img.shields.io/badge/license-MIT-green)
+<p align="center">
+  <img src="https://img.shields.io/badge/platform-macOS-black?logo=apple&logoColor=white" alt="platform: macOS" />
+  <img src="https://img.shields.io/badge/python-3.x-3776AB?logo=python&logoColor=white" alt="python: 3.x" />
+  <img src="https://img.shields.io/badge/OpenWrt-Backup%20%26%20Install-00B5E2?logo=openwrt&logoColor=white" alt="OpenWrt: Backup & Install" />
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="license: MIT" />
+</p>
 
 A macOS tool to take a **full stock firmware backup**, **install OpenWrt**,
 **manage the boot slot**, and **restore stock firmware** from the device's own
